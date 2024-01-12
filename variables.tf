@@ -21,3 +21,9 @@ variable "TFC_PROJECT_NAME" {
   description = "Name of the TFC Project that is used for creating the Vault namespace"
   default     = null
 }
+
+variable "vault_public_endpoint_url" {
+  type        = string
+  description = "The public URL for the Vault cluster"
+  default     = null
+}
